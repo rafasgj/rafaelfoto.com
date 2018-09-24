@@ -1,0 +1,28 @@
+{
+    "translate": {
+        "fineart": "Fine-Art",
+        "wedding": "Casamento",
+        "portrait": "Ensaio",
+        "graduation": "Formatura"
+    },
+    "fineart":[
+        "images/fineart/0001.jpg",
+        "images/fineart/0002.jpg",
+        "images/fineart/0003.jpg",
+        "images/fineart/0004.jpg",
+        "images/fineart/0005.jpg"
+    ],
+    "portrait":[
+        "images/portrait/0001.jpg",
+        "images/portrait/0002.jpg",
+        "images/portrait/0003.jpg",
+        "images/portrait/0004.jpg",
+        "images/portrait/0005.jpg",
+        "images/portrait/0006.jpg",
+        "images/portrait/0007.jpg"
+    ],
+    "wedding":[
+        "images/wedding/0001.jpg",
+        "images/wedding/0002.jpg"
+    ]
+}
