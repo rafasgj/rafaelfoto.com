@@ -1,0 +1,40 @@
+* {
+    color: #555;
+    font-family: sans-serif;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+
+footer > .left {
+    position: fixed;
+    bottom: 0.5rem;
+    left: 1rem;
+}
+
+footer > .right {
+    position: fixed;
+    right: 1rem;
+    bottom: 0.5rem;
+}
+
+a, a:hover, a:visited, a:active {
+    color: #f83 !important;
+    text-decoration: none;
+    border: none;
+    text-shadow: #fff 0px 0px 0px;
+}
+
+a:hover {
+    color: #f55 !important;
+}

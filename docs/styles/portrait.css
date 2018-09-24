@@ -1,0 +1,9 @@
+@media screen and (orientation:portrait) {
+    .carousel {
+        height: 80%;
+        vertical-align: middle;
+    }
+    .carousel-item > img {
+        width: 100vw;
+    }
+}

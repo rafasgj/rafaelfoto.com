@@ -1,0 +1,6 @@
+@media screen and (orientation:landscape) {
+    .carousel-item > img {
+        height: 85vh;
+        width: auto;
+    }
+}

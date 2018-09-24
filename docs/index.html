@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rafael Jeffman Fotografia</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="styles/carousel.css">
+        <link rel="stylesheet" href="styles/portrait.css">
+        <link rel="stylesheet" href="styles/landscape.css">
+        <link rel="stylesheet" href="styles/site.css">
+        <link rel="stylesheet" href="styles/navbar.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm sidebar-nav navbar-light fixed-top" role="tablist">
+                <a class="navbar-brand" href="index.html">
+                    Rafael<b>Jeffman</b><br><span id="brand2ndline">fotografia</span>
+                </a>
+                <button class="navbar-toggler" type="button"
+                        data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a class="nav-link" href="casamentos.html">Casamentos</a>
+                    <a class="nav-link" href="ensaios.html">Ensaios</a>
+                    <a class="nav-link" href="formaturas.html">Formaturas</a>
+                    <a class="nav-link" href="fineart.html">Fine-art</a>
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link" href="https://instagram.com/rafaeljeffman.fotografia">
+                            <img src="images/instagram.png" class="nav-icon" alt="rafaeljeffman.fotografia"/>
+                        </a>
+                        <!--
+                        <a class="nav-link" href="" data-target="#about" data-toggle="modal">Sobre</a>
+                        -->
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main role="main">
+            <div id="portfolio-carousel" class="carousel carousel-fade slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+                    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+                    <li data-target="#portfolio-carousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block" src="images/wedding-0001.jpg" alt="Casamento">
+                        <div class="carousel-caption text-left">
+                            <h1>Casamentos</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="images/art-0001.jpg" alt="Ensaios">
+                        <div class="carousel-caption text-left">
+                            <h1>Ensaios</h1>
+                       </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="images/portrait-0001.jpg" alt="Fine-art">
+                        <div class="carousel-caption text-left">
+                        <h1>Fine-art</h1>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img class="d-block" src="images/graduation-0001.jpg" alt="Formaturas">
+                      <div class="carousel-caption text-left">
+                          <h1>Formaturas</h1>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </main>
+        <footer>
+            <a class="left" href="mailto:rafasgj@gmail.com">
+                rafasgj@gmail.com
+            </a>
+            <a class="right" href="tel:+51-51-99235-8775">
+                (51) 99235-8775
+            </a>
+        </footer>
+    </body>
+</html>

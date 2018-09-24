@@ -1,0 +1,43 @@
+.carousel {
+    position: absolute;
+    left: 0;
+    top: 3.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel-item {
+}
+
+.carousel-item > img {
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90vw;
+    max-height: 85vh;
+}
+
+.carousel-caption {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0rem;
+    padding-right: 2em;
+}
+
+.carousel-caption > h1 {
+    text-align: right;
+    text-shadow: #666 0px 1px 1px;
+    font-size: x-large;
+}
+
+.carousel-indicators > li {
+    box-shadow: #999 0px 0px 2px;
+}
+.carousel-indicators > li.active {
+    background-color: #fc9;
+}
