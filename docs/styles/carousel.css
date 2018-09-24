@@ -18,7 +18,7 @@
     text-align: center;
     margin: 0 auto;
     max-width: 90vw;
-    max-height: 85vh;
+    max-height: 83vh;
 }
 
 .carousel-caption {
@@ -27,6 +27,7 @@
     left: 0;
     bottom: 0rem;
     padding-right: 2em;
+    display: none;
 }
 
 .carousel-caption > h1 {
