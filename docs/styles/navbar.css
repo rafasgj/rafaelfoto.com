@@ -17,8 +17,7 @@ a.navbar-brand, a.navbar-brand:hover, a.navbar-brand:active {
 }
 
 .nav-link {
-    padding: 0;
-    padding-right: 3em;
+    padding: 0 2em 0 1em;
     margin-left: 3px;
     margin-bottom: 5px;
 }

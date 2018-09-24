@@ -38,36 +38,35 @@ function add_indicator(count, active, indicators) {
         .appendTo(indicators)
 }
 
+var all_images = []
+
 function create_portfolio(data, status, xhr) {
     var translate = data.translate
-    var count = 0
-    var active = "active"
-    var indicators = $('#portfolio-indicators')
-    var portfolio = $('#portfolio-images')
-    var all = []
     for (item in translate) {
         var imgclass = translate[item]
         var images = data[item]
         for (i in images) {
-            all.push({'imgclass':imgclass, 'img':images[i]})
+            all_images.push({'imgclass':imgclass, 'img':images[i]})
         }
     }
-    for (e in shuffle(all)) {
-        var element = all[e]
-        add_indicator(e, active, indicators)
-        add_image_to_portfolio(element.img, element.imgclass, active, portfolio)
-        active = ""
+    filter_images()
+}
+
+function filter_images(filter) {
+    var active = "active"
+    var indicators = $('#portfolio-indicators')
+    var portfolio = $('#portfolio-images')
+    indicators.empty()
+    portfolio.empty()
+    for (e in shuffle(all_images)) {
+        var element = all_images[e]
+        if (!filter || filter.includes(element.imgclass)) {
+            add_indicator(e, active, indicators)
+            add_image_to_portfolio(element.img, element.imgclass, active, portfolio)
+            active = ""
+        }
     }
-    /*
-    var images = data[item]
-    var imgclass = translate[item]
-    for (i in images) {
-        add_indicator(count++, active, indicators)
-        add_image_to_portfolio(images[i], imgclass, active, portfolio)
-        active = ""
-    }
-    */
-    $('.carousel').carousel()
+    $('.carousel').carousel({wrap: true, interval: 2000, keyboard: true})
 }
 
 $(function() {
