@@ -58,12 +58,14 @@ function filter_images(filter) {
     var portfolio = $('#portfolio-images')
     indicators.empty()
     portfolio.empty()
+    count = 0
     for (e in shuffle(all_images)) {
         var element = all_images[e]
         if (!filter || filter.includes(element.imgclass)) {
-            add_indicator(e, active, indicators)
+            add_indicator(count, active, indicators)
             add_image_to_portfolio(element.img, element.imgclass, active, portfolio)
             active = ""
+            count++
         }
     }
     $('.carousel').carousel({wrap: true, interval: 2000, keyboard: true})
