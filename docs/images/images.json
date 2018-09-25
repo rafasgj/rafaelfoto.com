@@ -12,6 +12,12 @@
         "images/fineart/0004.jpg",
         "images/fineart/0005.jpg"
     ],
+    "graduation":[
+        "images/graduation/0001.jpg",
+        "images/graduation/0002.jpg",
+        "images/graduation/0003.jpg",
+        "images/graduation/0004.jpg"
+    ],
     "portrait":[
         "images/portrait/0001.jpg",
         "images/portrait/0002.jpg",
@@ -19,7 +25,8 @@
         "images/portrait/0004.jpg",
         "images/portrait/0005.jpg",
         "images/portrait/0006.jpg",
-        "images/portrait/0007.jpg"
+        "images/portrait/0007.jpg",
+        "images/portrait/0008.jpg"
     ],
     "wedding":[
         "images/wedding/0001.jpg",
