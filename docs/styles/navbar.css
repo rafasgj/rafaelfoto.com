@@ -21,6 +21,13 @@ a.navbar-brand, a.navbar-brand:hover, a.navbar-brand:active {
     margin-left: 3px;
     margin-bottom: 5px;
 }
+@media screen and (max-width: 699px) and (orientation: landscape) {
+    .nav-link {
+        padding: 0 1em 0 1em;
+        margin-left: 3px;
+        margin-bottom: 5px;
+    }
+}
 
 #brand2ndline {
     font-size: 70%;
