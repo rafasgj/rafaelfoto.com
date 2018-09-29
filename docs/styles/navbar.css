@@ -16,6 +16,11 @@ a.navbar-brand, a.navbar-brand:hover, a.navbar-brand:active {
     color: #000 !important;
 }
 
+.navbar-collapse {
+    margin-top: -3px;
+    padding-top: 5px;
+}
+
 .nav-link {
     padding: 0 2em 0 1em;
     margin-left: 3px;
