@@ -4,7 +4,14 @@
 }
 
 .navbar-brand {
+    letter-spacing: 0.05em;
     line-height: 1em;
+}
+
+#brand2ndline {
+    font-size: 70%;
+    letter-spacing: 0.65em;
+    font-variant: small-caps;
 }
 
 .nav-icon {
@@ -32,12 +39,6 @@ a.navbar-brand, a.navbar-brand:hover, a.navbar-brand:active {
         margin-left: 3px;
         margin-bottom: 5px;
     }
-}
-
-#brand2ndline {
-    font-size: 70%;
-    letter-spacing: 0.6em;
-    font-variant: small-caps;
 }
 
 @media screen and (max-width: 575px) {
